@@ -14,10 +14,16 @@ import ComponenteOito from './components/ComponenteOito'
 import ComponenteNove from './components/ComponenteNove'
 import ComponenteDez from './components/ComponenteDez'
 import ComponentePai from './components/comunicacao_direta/ComponentePai'
+import ComponenteMae from './components/comunicacao_indireta/ComponenteMae'
+import ComponenteA from './components/comunicacao_indireta_2/ComponenteA'
+import ComponenteC from './components/comunicacao_indireta_2/ComponenteC'
 
 function App(){
     return(
         <>
+            <ComponenteC titulo="Comunicação indireta 2"></ComponenteC>
+            <ComponenteA titulo="Comunicação indireta 2"></ComponenteA>
+            <ComponenteMae titulo="Comunicação indireta"></ComponenteMae>
             <ComponentePai titulo="Comunicação Direta"></ComponentePai>
             <ComponenteDez titulo="Pelé" fundo="yellow" />
             <ComponenteNove titulo="Componente nove" valor="Santos" />
